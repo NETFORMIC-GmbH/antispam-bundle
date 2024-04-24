@@ -2,32 +2,6 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 3.1.0 - 2023-12-05
-
-
------
-
-### Release Notes for [3.1.0](https://github.com/nucleos/NucleosAntiSpamBundle/milestone/11)
-
-Feature release (minor)
-
-### 3.1.0
-
-- Total issues resolved: **0**
-- Total pull requests resolved: **5**
-- Total contributors: **2**
-
-#### dependency
-
- - [620: Update dependency size-limit to v11](https://github.com/nucleos/NucleosAntiSpamBundle/pull/620) thanks to @core23
- - [619: Bump to symfony ^6.4 || ^7.0](https://github.com/nucleos/NucleosAntiSpamBundle/pull/619) thanks to @core23
- - [616: Update dependency symfony/phpunit-bridge to v7](https://github.com/nucleos/NucleosAntiSpamBundle/pull/616) thanks to @renovate[bot]
- - [615: Update dependency matthiasnoback/symfony-dependency-injection-test to v5](https://github.com/nucleos/NucleosAntiSpamBundle/pull/615) thanks to @renovate[bot]
-
-#### Enhancement
-
- - [618: Update tools ](https://github.com/nucleos/NucleosAntiSpamBundle/pull/618) thanks to @core23
-
 ## 2.3.1 - 2021-12-08
 
 
