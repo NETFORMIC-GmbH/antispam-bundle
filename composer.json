@@ -1,0 +1,79 @@
+{
+    "name": "nucleos/antispam-bundle",
+    "description": "This bundle provides some basic features to reduce spam in symfony forms.",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "keywords": [
+        "symfony",
+        "bundle",
+        "antispam",
+        "spam",
+        "form",
+        "twig",
+        "protection"
+    ],
+    "authors": [
+        {
+            "name": "Christian Gripp",
+            "email": "mail@core23.de"
+        }
+    ],
+    "homepage": "https://nucleos.rocks",
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/core23"
+        },
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/core23"
+        },
+        {
+            "type": "ko-fi",
+            "url": "https://ko-fi.com/core23"
+        },
+        {
+            "type": "other",
+            "url": "https://donate.core23.de"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-pcre": "*",
+        "symfony/config": "^6.4 || ^7.0",
+        "symfony/dependency-injection": "^6.4 || ^7.0",
+        "symfony/event-dispatcher": "^6.4 || ^7.0",
+        "symfony/expression-language": "^6.4 || ^7.0",
+        "symfony/form": "^6.4 || ^7.0",
+        "symfony/framework-bundle": "^6.4 || ^7.0",
+        "symfony/http-foundation": "^6.4 || ^7.0",
+        "symfony/http-kernel": "^6.4 || ^7.0",
+        "symfony/options-resolver": "^6.4 || ^7.0",
+        "symfony/translation-contracts": "^1.1 || ^2.0 || ^3.0",
+        "twig/twig": "^2.4 || ^3.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.0.1",
+        "symfony/browser-kit": "^6.4 || ^7.0",
+        "symfony/console": "^6.4 || ^7.0",
+        "symfony/translation": "^6.4 || ^7.0",
+        "symfony/twig-bundle": "^6.4 || ^7.0",
+        "symfony/yaml": "^6.4 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nucleos\\AntiSpamBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nucleos\\AntiSpamBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
+    }
+}
